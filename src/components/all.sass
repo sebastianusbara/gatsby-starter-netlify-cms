@@ -9,6 +9,8 @@ $primary: $kaldi-red
 $primary-invert: $kaldi-red-invert
 $body-color: #333
 $black: #2b2523
+$navy: #011629
+$lightblue: #8EC5EF
 
 .navbar .navbar-menu
   box-shadow:none !important
@@ -71,6 +73,27 @@ $black: #2b2523
 .margin-top-0
   margin-top: 0 !important
 
+footer.footer
+  padding: 3rem 0rem 0rem
+  padding-bottom: 32px
+  background-color: $navy
+
+.footer .navbar-item
+  color: $lightblue
+  padding-left: 0
+  padding-right: 0
+  align-items: flex-start
+
+.footer .footerHeading
+  color: white
+  text-align: left
+
+.footer .content
+  padding-bottom: 12px
+
+.footer .content__nav
+  border-bottom: 1px solid $lightblue
+
 .navbar-item .icon
   color: $primary
 // Override for use of svg's from https://simpleicons.org/
@@ -80,9 +103,6 @@ $black: #2b2523
   fill: currentColor
 .navbar-brand .navbar-item.logo
   padding: 0 1rem
-footer.footer
-  padding: 3rem 0rem 0rem
-  background-color: transparent
 
 //Menu overrides
 $menu-item-color: $white-ter
